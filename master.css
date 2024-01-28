@@ -1,0 +1,103 @@
+body{
+    margin: 0;
+}
+.home{
+    background-image: url(drew-coffman-1872.jpg);
+    background-size: cover;
+    background-position: center center;
+    min-height: 100vh;
+  }
+.navbar{
+    float: right;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 1%;
+    color: aliceblue;
+    
+    
+}
+.navbar2{
+    float: left;
+    padding-left: 70px;
+    
+    padding-top: 1%;
+}
+.navbar a { 
+    color: white;
+    text-decoration: none;
+    font-size: 17px;
+    
+  }
+  .bakery{
+    text-align: center;
+    color: rgba(255, 255, 255, 0.753);
+    padding-top: 10%;
+    font-size: 20px;
+    
+  }
+  .bakery h1{
+    padding: 20px 0;
+    font-size: 40px;
+    color: rgb(255, 255, 255);
+  }
+  .bakery .button1 {
+    padding: 10px 20px;
+    border:solid;
+    color: white;
+    border-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    background-color: rgba(255, 222, 173, 0);
+    
+  }
+  .bakery .button2 {
+    padding: 10px 20px;
+    border:none;
+    color: white;
+    border-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    background-color: rgba(177, 145, 97, 0.911);
+    
+
+  }
+  .container{
+    width: 100%;
+    padding-top: 3%;
+    padding-left: 2%;
+    display: flex;
+  }
+  .container .img{
+    width: 49%;
+    padding: 2% 2%;
+    
+  }
+  .container .txt{
+    text-align: center;
+    width: 90%;
+  }
+  .container img, .container p{
+    display: inline-block;
+    vertical-align: middle;
+  }
+  .container .left{
+    text-align: left;
+  }
+  .container .backer{
+    width: 33%;
+    display: inline-block;
+    text-align: center;
+    padding-top: 14%;
+
+  }
+  .container .backer img{
+    width: 90%;
+
+  }
+  .container .txt2{
+    text-align: center;
+    width: 100%;
+    position: absolute;
+  }
+  .container .backer p{
+    padding-left: 10%;
+    padding-right: 10%;
+  }
